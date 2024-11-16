@@ -96,6 +96,6 @@ def id_to_csv(track_ids):
     return df
 
 if __name__ == '__main__':
-    # ids = get_to_playlist("プレイリストID") #プレイリストから整形したい場合こっち使用
+    # ids = get_to_playlist("3AbgYvhng4HzJ4lYA8wiXTID") #プレイリストから整形したい場合こっち使用
     ids = get_to_album_tracks("アルバムID") 
     id_to_csv(ids)
